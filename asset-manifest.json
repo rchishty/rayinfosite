@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/raysinfosite/static/css/main.073c9b0a.css",
-    "main.js": "/raysinfosite/static/js/main.8c5db88a.js",
-    "static/js/787.60ec0c76.chunk.js": "/raysinfosite/static/js/787.60ec0c76.chunk.js",
-    "static/media/logo.svg": "/raysinfosite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/raysinfosite/index.html",
-    "main.073c9b0a.css.map": "/raysinfosite/static/css/main.073c9b0a.css.map",
-    "main.8c5db88a.js.map": "/raysinfosite/static/js/main.8c5db88a.js.map",
-    "787.60ec0c76.chunk.js.map": "/raysinfosite/static/js/787.60ec0c76.chunk.js.map"
+    "main.css": "/rayinfosite/static/css/main.073c9b0a.css",
+    "main.js": "/rayinfosite/static/js/main.ea33e483.js",
+    "static/js/787.60ec0c76.chunk.js": "/rayinfosite/static/js/787.60ec0c76.chunk.js",
+    "static/media/logo.svg": "/rayinfosite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rayinfosite/index.html",
+    "main.073c9b0a.css.map": "/rayinfosite/static/css/main.073c9b0a.css.map",
+    "main.ea33e483.js.map": "/rayinfosite/static/js/main.ea33e483.js.map",
+    "787.60ec0c76.chunk.js.map": "/rayinfosite/static/js/787.60ec0c76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.8c5db88a.js"
+    "static/js/main.ea33e483.js"
   ]
 }
