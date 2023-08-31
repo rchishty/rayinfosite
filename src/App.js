@@ -1,22 +1,24 @@
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  document.title = 'rchishty.info'
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="App-text">
+        <text>
+          Built by&nbsp;
+        </text>
+        <text style={{color: 'blue'}}>
+          Ray Chishty&nbsp;
+        </text>
+        <text>
+          using <code>React.js</code>
+        </text>
+        </div>
       </header>
     </div>
   );
