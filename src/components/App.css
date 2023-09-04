@@ -1,0 +1,90 @@
+@font-face {
+    font-family:"coordinates-variable";
+    src:url("https://use.typekit.net/af/db654c/0000000000000000774bed11/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/db654c/0000000000000000774bed11/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/db654c/0000000000000000774bed11/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") 
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  background-image: linear-gradient(to bottom right, rgba(183, 0, 255, 0.788), rgba(37, 130, 218, 0.774));
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.App-logo {
+  position: relative;
+  height: 7vmin;
+  pointer-events: none;
+  bottom: -18%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 8s linear;
+  }
+}
+
+.App-header {
+  position: sticky;
+  top: 0;
+  max-height: 12vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(0, 153, 255, 0.418);
+}
+
+.Header-break {
+  width: 100vw;
+  height: 100px;
+}
+
+
+.App-text {
+  flex-direction: row;
+  display: flex;
+  color: black;
+  margin-left: 3%;
+  font-family: "coordinates-variable",sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Ray-Chishty-link {
+  color:#003cff;
+  background: 
+    linear-gradient(to right,rgba(0,0,0,0), rgba(100, 200, 200, 0)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 300ms;
+  text-decoration: none;
+}
+
+
+.Ray-Chishty-link:hover,
+.Ray-Chishty-link:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 10px;
+  height: 100%;
+  bor
+}
