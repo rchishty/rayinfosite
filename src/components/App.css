@@ -9,6 +9,7 @@
   background-image: linear-gradient(to bottom right, rgba(183, 0, 255, 0.788), rgba(37, 130, 218, 0.774));
   flex-direction: column;
   min-height: 100%;
+  font-family: "coordinates-variable",sans-serif;
 }
 
 .App-logo {
@@ -39,6 +40,7 @@
 .Header-break {
   width: 100vw;
   height: 100px;
+  background-color: rgba(100, 200, 200, 0);
 }
 
 
@@ -86,4 +88,5 @@
   background-color: transparent;
   border-radius: 10px;
   height: 100%;
+  position: inherit;
 }

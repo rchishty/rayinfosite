@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import logo from "../logo.svg"
+import './App.css'
 
-const Header = ({ logo }) => {
+const Header = () => {
     return(
-        <motion.header className="App-header"
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
-            transition={{duration: 2.5}}
-        >
+        <div style={{position: 'sticky', top: 0}}>
+        <header className="App-header">
             <div style={{flexDirection: 'row', display: 'flex'}}>
             <div className="App-text">
                 <p>
@@ -20,12 +19,13 @@ const Header = ({ logo }) => {
                 <img src={logo} className="App-logo" alt="logo" />
             </div>
 
-            <motion.button className='btn'>Home</motion.button>
+            <Link to={"/"}><motion.button className='btn'>Home</motion.button></Link>
             <Link to={"/Resume"}><button className='btn'>Resume</button></Link>
-            <motion.button className='btn'>Contact</motion.button>
+            <Link to={"/Contact"}><button className='btn'>Contact</button></Link>
             </div>
-            <div className="Header-break"><hr/></div>
-      </motion.header>
+            <div className="Header-break"></div>
+      </header>
+      </div>
     )
 }
 
